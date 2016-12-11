@@ -68,7 +68,6 @@ import android.graphics.Color;
       LayoutParams layoutParams = (LayoutParams) drawerView.getLayoutParams();
       layoutParams.gravity = mDrawerPosition;
       layoutParams.width = mDrawerWidth;
-      //layoutParams.scrimColor = Color.TRANSPARENT;
       drawerView.setLayoutParams(layoutParams);
       this.setScrimColor(Color.TRANSPARENT);
       drawerView.setClickable(true);
